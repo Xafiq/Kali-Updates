@@ -139,8 +139,8 @@ Keep your system up to date to avoid security vulnerabilities and benefit from t
 If you want to save time, you can create a simple script to automate the updating, upgrading, and cleaning processes:
 
    ```bash
-   sudo apt-get update -y && sudo apt-get full-upgrade -y && sudo apt autoremove -y
-   ```
+sudo apt-get update -y && sudo apt-get full-upgrade -y && sudo apt-get dist-upgrade -y && sudo apt upgrade --fix-missing && sudo apt autoremove -y && sudo apt autoclean -y
+```
    This script will handle your system maintenance in one go.
 
 ### Handle Major Upgrades with Care
